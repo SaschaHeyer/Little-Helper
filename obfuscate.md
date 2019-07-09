@@ -5,7 +5,7 @@
 find . -type f -exec sed -i '' -e 's/find/replace/g' {} +
 ```
 
-# Remove urls
+## Remove urls
 ```bash
 . -type f -exec sed -i '' -e 's/http[^ ]*//g' {} +
 ```
