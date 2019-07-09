@@ -2,11 +2,11 @@
 
 ## Replace text
 ```bash
-find . -type f -exec sed -i '' -e 's/find/replace/g' {} +
+find . -type f -exec sed -i '' -e 's/find/obfuscated/g' {} +
 ```
 
 ## Remove urls
 ```bash
-. -type f -exec sed -i '' -e 's/http[^ ]*//g' {} +
+. -type f -exec sed -i '' -e 's/http[^ ]*/obfuscated/g' {} +
 ```
 
