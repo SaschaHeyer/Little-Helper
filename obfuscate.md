@@ -7,6 +7,6 @@ find . -type f -exec sed -i '' -e 's/find/obfuscated/g' {} +
 
 ## Remove urls
 ```bash
-. -type f -exec sed -i '' -e 's/http[^ ]*/obfuscated/g' {} +
+find . -type f -exec sed -i '' -e 's/http[^ ]*/obfuscated/g' {} +
 ```
 
